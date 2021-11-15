@@ -1,0 +1,92 @@
+body{
+    min-width:700px;
+    padding-top:20px;
+    background:url("../picture/back.png") no-repeat fixed ;
+    background-size:100% 100%;
+}
+
+header{
+    height:116px;
+    border-bottom:2px solid red;
+}
+/*main布局*/
+main{
+    /*height:300px;*/
+    margin-top:20px;
+    border:1px solid #ececec;
+    /*background-color:yellow;*/
+}
+main .top{
+    height:60px;
+    padding:0 10px;
+    font-size:30px;
+    color:#747372;
+    line-height:60px;
+    background-color:rgba(236,236,236,0.4);
+}
+main .top a{
+    color:red;
+}
+main .top a:hover{
+    color:blue;
+}
+main form{
+    min-width:660px;
+    width:50%;
+    margin:0 auto;
+    padding:40px 0;
+    font-size:20px;
+    color:#747372;
+}
+main form ul{
+    display:none;
+}
+main form ul li{
+    line-height:20px;
+    font-size:12px;
+    padding:0 10px;
+    margin-left:6px;
+}
+main form a{
+    color:blue!important;
+    text-decoration:none!important ;
+}
+main form .iconfont{
+    color:red;
+}
+main form ul #grade1{
+    background-color:red;
+    display:none;
+}
+main form ul #grade2{
+    background-color:#42b74e;
+    display:none;
+}
+main form ul #grade3{
+    background-color:yellow;
+    display:none;
+}
+main form .checkbox{
+    font-size:12px;
+}
+main form #submit{
+    width:6em;
+    height:2em;
+    font-size:20px;
+    color:white;
+    padding:6px 0;
+    background-color:#c81622;
+    border:0;
+    cursor:pointer;
+}
+/*footer布局*/
+footer{
+    height:100px;
+    margin-top:2em;
+    /*background-color:orange;*/
+}
+footer div{
+    text-align:center;
+    color:#747372;
+    margin-bottom:1em;
+}

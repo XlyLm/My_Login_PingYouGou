@@ -1,0 +1,55 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: none;font-size: 100%;font-style:normal;font-weight:normal;font: inherit;list-style:none;text-decoration:none;}
+/*重置网页字体颜色、裁剪网页上下溢出、始终显示滑动条*/
+html{overflow-y:scroll;overflow:-moz-scrollbars-vertical;}
+/*将行内元素转换为块元素*/
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {display: block;}
+/*重置button,input,select,textarea字体大小*/
+button,input,select,textarea{font-size:100%;}
+/*表格设置合并边框、边框空白*/
+table{border-collapse:collapse;border-spacing:0;}
+/*使图片缩放不在失真,顶部对齐*/
+img{-ms-interpolation-mode:bicubic;vertical-align: top;}
+/*规定可以由用户调整 div 元素的大小：*/
+textarea{resize:vertical;}
+/*定义left类设置左浮*/
+.left{float:left;}
+/*定义right类设置右浮*/
+.right{float:right;}
+/*定义overflow类设置超出裁剪*/
+.overflow{overflow:hidden;}
+/*定义hide类设置元素隐藏*/
+.hide{display:none;}
+.visibility{visibility:hidden;}
+/*定义block类设置元素为块元素*/
+.block{display:block;}
+/*定义inline类设置元素为行元素*/
+.inline{display:inline;}
+/*重置error字体颜色和大小*/
+.error{color:#F00;font-size:12px;}
+/*重置label,button光标显示为手*/
+label,button{cursor:pointer;}
+/*定义clearfix类解决高度塌陷和外边距重合问题*/
+.clearfix::before, .clearfix::after{content:'';display:table;height:0;clear:both;}
+/*定义wordwrap类允许单词内换行,允许单词长度换行*/
+.wordwrap{word-break:break-all;word-wrap:break-word;}
+/*设置pre和wordwrap类规定段落中的文本不进行换行*/
+pre .wordwrap{white-space:pre-wrap;}
+/*body{text-align:center;line-height: 1;}*/
+body,form{position:relative;}
+/*去掉边框轮廓线*/
+form input{outline:none;}
+td{text-align:left;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: none;}
